@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Start Header */
+
+header .header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .header1 .img img{
+    width: 100px;
+}
+
+header .header1 nav  ul{
+    display: flex;
+    gap: 70px;
+}
+
+header .header1 nav ul li a{
+    color: black;
+    transition: 0.3s;
+}
+
+header .header1 nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.579);
+}
+
+header .header1 .content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+header .header1 .content p {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+header .header1 .content a {
+    color: blueviolet;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid blueviolet;
+    padding: 5px 40px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+header .header1 .content a:hover{
+    background-color: rgba(143, 76, 205, 0.171);
+    border-color: rgba(143, 76, 205, 0.171);
+}
+
+header .header2{
+    display:flex;
+    justify-content: space-around;
+}
+
+header .header2 input:nth-child(1){
+    padding: 15px 30px;
+    border-radius: 5px;
+    width: 25%;
+}
+header .header2 input:nth-child(2){
+    padding: 15px 30px;
+    border-radius: 5px;
+    width: 45%;
+}
+header .header2 input:nth-child(3){
+    border-radius: 5px;
+    width: 15%;
+}
+
+/* End Header */
+
+
+/* Start Cart */
+
+.cart{
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.cart img {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cart .box h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cart .box p{
+    font-size: 20px;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+.cart .box p span{
+    font-weight: bold;
+    padding-left: 50px;
+    color: red;
+}
+
+.cart .box p i {
+    padding-left: 20px;
+}
+
+.cart a {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* End Cart */
+
+
+/* Start Footer */
+
+footer{
+    background-color: rgb(78, 15, 138);
+    margin-top: 200px;
+    padding: 30px;
+    color:white;
+}
+
+footer .links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .links ul li {
+    padding-bottom: 30px;
+}
+
+footer .links ul li a {
+    color: white;
+}
+
+/* End Footer */

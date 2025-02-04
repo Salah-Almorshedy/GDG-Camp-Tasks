@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>task 2</title>
+</head>
+<body>
+
+    <!-- Start Login Form -->
+    <div class="login">
+        <h1>Hi, Welcome to Luxira!</h1>
+        <p>New here? <a href="#">Create an account.</a></p>
+        <form>
+            <div class="mail">
+                <label class="bold" for="mail">Email Address</label>
+                <br>
+                <input type="email" name="Email" id="mail" required placeholder="Example@gmail.com">
+            </div>
+            <div class="pass">
+                <label class="bold" for="pass">Password</label>
+                <br>
+                <input type="password" name="passeord" id="pass" required placeholder="Enter Your Password" minlength="8" maxlength="10">
+            </div>
+            <div class="box">
+                <div class="text">
+                    <input type="checkbox" name="remember" id="remember"> 
+                    <label style="font-weight: bold;" for="remember">Remember this device</label>
+                </div>
+                <a href="#">Forgot your password?</a>
+            </div>
+            <button>Login</button>
+            <p>or login with</p>
+            <a class="google" href="https://www.google.com/" target="_blank">Sign up with Google</a>
+            <img src="assets/images/google-color.png" alt="">
+        </form>
+    </div>
+    <!-- End Login Form -->
+
+
+    <!-- Start Register Form -->
+        <div class="regester">
+            <h1>Hi, Welcome to Luxira!</h1>
+            <p>Register your account</p>
+            <form action="">
+                    <div class="content">
+                        <div class="first-name">
+                            <label class="bold1" for="first-name">First name</label>
+                            <input type="text" id="first-name" placeholder="Salah" required>
+                        </div>
+                        <div class="sur-name">
+                            <label class="bold1" for="surname">Surname</label>
+                            <input type="text" id="surname" placeholder="Almorshedy" required>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="mail">
+                            <label class="bold1" for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="Example@gmail.com" required>
+                        </div>
+                        <div class="gender">
+                            <label class="bold1" for="gender">Gender</label>
+                            <select name="gender" id="gender">
+                                <optgroup>
+                                    <option value="male">male</option>
+                                    <option value="female">female</option>
+                                </optgroup>
+                                
+                            </select>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="pass">
+                            <label class="bold1" for="pass">password</label>
+                            <input type="password" name="" id="pass" placeholder="Enter Your Password" required>
+                        </div>
+                        <div class="confirm-pass">
+                            <label class="bold1" for="confirm-pass">Confirm password</label>
+                            <input type="password" name="" id="confirm-pass" placeholder="Confirm Password" required>
+                        </div>
+                    </div>
+                    <button>Register</button>
+                    <p>or login with</p>
+                    <a class="google" href="https://www.google.com/" target="_blank">Sign up with Google</a>
+                    <img src="assets/images/google-color.png" alt="">
+            </form>
+        </div>
+    
+    <!-- End Register Form -->
+    
+
+    <!-- Start Cart -->
+    <div class="cart">
+            <img src="./assets/images/61tPyctcoHL._AC_SX522_.jpg" alt="clothes">
+            <div class="box">
+                <h2>Curology Product Set</h2>
+                <div class="price">
+                    <p class="del">Old Price <del>$500</del></p> 
+                    <p>New Price $300</p>
+                </div>
+            </div>
+            <a href="#">Add To Cart</a>
+    </div>
+    <!-- End Cart -->
+</body>
+</html>
