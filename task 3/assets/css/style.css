@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landpage .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../images/circles.svg");
+    background-size: cover;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+@media (max-width:767px) {
+    .landpage .container{
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+.landpage .container .text{
+    flex: 1;
+}
+
+@media (max-width:991px) {
+    .landpage .container .text {
+        text-align: center;
+        margin-top:100px;
+    }
+}
+
+.landpage .container .text h1 {
+    color: black;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-size: 38px;
+}
+
+.landpage .container .text h1 span{
+    color: rgb(18, 18, 167);
+}
+
+@media (max-width:767px) {
+    .landpage .container .text h1 {
+        font-size:30px;
+        margin-top: 7px;
+    }
+}
+
+.landpage .container .img img{
+    width: 600px;
+}
+
+@media (max-width:991px) {
+    .landpage .container .img img{
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .landpage .container .img img{
+        display: block;
+        width: 433px;
+        margin-top: -10%;
+    }
+}
+
+.offers{
+    background-color: #ddd;
+    padding: 60px;
+    padding-top: 140px;
+}
+
+.offers .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers .text h2 {
+    font-size: 30px;
+    color: red;
+    text-transform: uppercase;
+}
+
+.offers .text button{
+    padding: 7px 25px;
+    color: white;
+    background-color: rgb(10, 10, 87);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.offers .carts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px , 1fr));
+    gap: 20px;
+}
+
+.cart {
+    width: 250px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 80px;
+    padding: 15px;
+    background-color: #ddd;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 5px 10px 11px black;
+}
+.cart .image {
+    width: 250px;
+}
+.cart img {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cart .box h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.cart .box .price {
+    font-size: 20px;
+    color: #aaa;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart .box p:last-child{
+    font-weight: bold;
+    margin-left: 50px;
+    color: red;
+}
+
+.cart .box p i {
+    padding-left: 20px;
+}
+
+.cart a {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
