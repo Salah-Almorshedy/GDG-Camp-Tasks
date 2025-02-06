@@ -4,10 +4,10 @@ let p = document.querySelector("p")
 
 function createRandomP() {
     const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let result = "";
-    for (let i = 0; i <= chars.length; i++) {
-            result += chars.charAt(Math.floor(Math.random() * chars.length))
-        }    
+    result = ""
+    for(let i = 0; i < chars.length; i++){
+        result += chars.charAt(Math.floor(Math.random() * chars.length))
+    }
     return result
 }
 
